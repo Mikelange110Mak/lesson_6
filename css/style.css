@@ -1,0 +1,160 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Black.woff2") format("woff2"), url("../fonts/AlegreyaSC-Black.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Bold.woff2") format("woff2"), url("../fonts/AlegreyaSC-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Regular.woff2") format("woff2"), url("../fonts/AlegreyaSC-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Italic.woff2") format("woff2"), url("../fonts/AlegreyaSC-Italic.woff") format("woff");
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+
+body{
+   font-family: AlegreyaSC;
+}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+.header-body{
+   height: 90px;
+   background-color: rgb(174, 224, 197);
+   border-bottom: 3px solid rgb(84, 128, 103);
+   box-shadow: 15px 12px 19px 3px rgba(32,61,29,0.91);
+}
+.header-items{
+   width: 350px;
+   margin: 0 auto;
+}
+.header-items p{
+   display: inline-block;
+   margin: 25px 0px;
+   font-size: 25px;
+}
+.header-body img{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   margin: 9px 0 0 6px;
+}
+main{
+   margin: 60px 0 0 0;
+   padding: 10px;
+}
+h2{
+   font-style: italic;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.build{
+   width: 250px;
+   height: 150px;
+   display: inline-block;
+   margin: 0 20px 0 0;
+   padding: 20px;
+   font-family: "Montseraat";
+}
+.all-blocks img{
+   width: 100px;
+   height: 100px;
+}
+.all-blocks p{
+   display: inline-block;
+}
+.block{
+   border: 3px dotted red;
+}
+.block-two{
+   border: 3px dashed red;
+}
+.block-three{
+   border: 3px double red;
+}
+.block-four{
+   border-left: 3px solid red;
+}
+.block-five{
+   border-right: 3px solid red;
+}
+.block-six{
+   border: 3px solid red;
+   border-bottom: none;
+}
+.button-block{
+   width: 150px;
+   height: 40px;
+   margin: 50px auto;
+   outline: none;
+   text-align: center;
+   border-radius: 40px;
+   padding-top: 7px;
+   background-color: rgb(29, 36, 51);
+   
+   box-shadow: 26px 22px 9px -1px rgba(30, 38, 110, 0.57);
+}
+.button{
+   display: inline-block;
+   width: 150px;
+   height: 40px;
+   color: antiquewhite;
+}
+.outlines-blocks .build{
+   background-color: rgb(87, 52, 0);
+   color: rgb(190, 225, 255);
+   margin-bottom: 30px;
+}
+.outline{
+   outline: 3px dotted red;
+}
+.outline-two{
+   outline: 3px dashed red;
+}
+.outline-three{
+   outline: 3px double red;
+}
+.invisible{
+   height: 200px;
+   background-color: rgb(5, 2, 48);
+   color: antiquewhite;
+   margin-bottom: 30px;
+   padding: 30px;
+   font-weight: 26;
+}
+.block-opacity{
+   opacity: 0.4;
+   box-shadow: inset 6px 4px 7px rgb(4, 128, 35);
+}
+.block-visibility{
+   visibility: hidden;
+}
+.withdrawn-block{
+   display: none;
+}
+.footer-body{
+   width: 300px;
+   padding: 10px;
+   margin: 0px auto;
+   font-weight: 900;
+}
+
